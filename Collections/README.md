@@ -12,7 +12,7 @@ Códigos de exemplo retirados do curso de Fundamentos da Programação Orientada
 
 - O **núcle principal** das coleções é formado pelas interfaces que permitem manipular a coleção independemente do nível de detalhe que elas representam;
 
-- Existem **4 tipos de collections** das quais pode-se ter subclasses que implementam várias formas diferentes de se trabalhar com cada uma das coleções:
+- Existem **4 tipos de collections** das quais pode-se ter subclasses que implementam várias formas diferentes de se trabalhar com cada uma das coleções, são elas
 
 **List** (lista):
 
@@ -22,4 +22,8 @@ Códigos de exemplo retirados do curso de Fundamentos da Programação Orientada
 
 **Map** (mapa):
 
-![Hierarquia de coleções](C:\Users\User\Desktop\CollectionsJava) .
+![Hierarquia de coleções](image.png)
+
+- Todas essas classes e interfaces estão dentro do package java.util;
+
+- Embora a interface Map não seja filha direta da interface Collection, ela também é considerada uma coleção devido às suas funções.
