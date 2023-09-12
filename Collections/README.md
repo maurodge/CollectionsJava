@@ -1,18 +1,25 @@
-## Getting Started
+# Collections Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- Parte teórica
 
-## Folder Structure
+Códigos de exemplo retirados do curso de Fundamentos da Programação Orientada a Objetos com Java da DIO professora ![Camila Cavalcante](link github).
 
-The workspace contains two folders by default, where:
+## Collection Framework API
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **Collection:** é uma estrutura de dados que serve para agrupar muitos elementos em uma única unidade. Tais elementos são objetos **(ou seja, não aceita tipo primitivo, int---> Integer; double ---> Double; String=String...)**;
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Uma collection pode ter coleções **homogênias e heterogêneas**, mais comum serem homogêneas (contém um tipo específico). Usando herança por exemplo, poderia ter as classes Veiculo, Carro extands Veiculo e Moto extands Veiculo. Neste caso um array (coleção) de veículo seria uma coleção heterogênia, enquanto um array de carro ou array de moto são homogêneos.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- O **núcle principal** das coleções é formado pelas interfaces que permitem manipular a coleção independemente do nível de detalhe que elas representam;
 
-## Dependency Management
+- Existem **4 tipos de collections** das quais pode-se ter subclasses que implementam várias formas diferentes de se trabalhar com cada uma das coleções:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+**List** (lista):
+
+**Set** (conjunto):
+
+**Queue** (fila):
+
+**Map** (mapa):
+
+![Hierarquia de coleções](C:\Users\User\Desktop\CollectionsJava) .
